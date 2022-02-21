@@ -4,14 +4,13 @@
   The project is a terminal based application that generates and solves a predetermined or user-defined sized labyrinth through the use of a DFS-algorithm.
   The projected was created in C++.
 ## Functionality
-  **Input Handling**<br />
-    The Menu inputs must be an odd number greater than 2.<br />
-    This is to ensure that the labyrinth is created correctly and all paths are enclosed by a wall <br />
   **Menu**<br />
     The Menu gives the user three options.<br />
     Generate a random 11x11 labyrinth | Generate a custom sized labyrinth | Quit the program <br />
     Once a labyrinth is generated the user is the offered the option of seeing the labyrinths solved path or return to the main menu.<br />
-## Gameplay of all game states
+   **Input Handling**<br />
+    The custom generation inputs must be an odd number greater than 2.<br />
+    This is to ensure that the labyrinth is created correctly and all paths are enclosed by a wall <br />
 ### Main menu
 <img width="1129" alt="Screenshot 2022-02-21 at 17 54 38" src="https://user-images.githubusercontent.com/74938876/155003130-8c9414a1-4a78-49f8-a508-507ab5c8ec85.png"><br />
 ### Default labyrinth generated and solved
